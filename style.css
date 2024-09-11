@@ -1,0 +1,70 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(39, 9, 209) !important;
+    font-family: "Lobster Two", sans-serif;
+}
+
+.navbar-brand:hover {
+    color: rgb(39, 9, 209) !important;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+nav {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+    background-color: white !important;
+    height: 70px !important;
+    border-bottom: 4px solid rgba(0, 0, 0, .15);
+    font-size: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(39, 9, 209) !important;
+    margin-right: -35px;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    background-color: blue;
+    border-radius: 13px;
+}
+.btn2{
+    
+    height: 30px;
+    width: 10%;
+    background-color: blue;
+    border-radius: 13px;
+}
+.btn1{
+    
+    height: 40px;
+    width: 40%;
+    background-color: blue;
+    border-radius: 13px;
+}
